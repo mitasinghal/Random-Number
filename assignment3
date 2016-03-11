@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Randomnomain {
+				public static void main(String args[]){
+					Scanner scan= new Scanner(System.in);
+Scanner scan1= new Scanner(System.in);
+					 /*
+				    Use System.out.println() to print on console.
+				    */	
+					System.out.println("Enter Minimum number:");
+					//capture the input in an integer
+					int min=scan.nextInt();
+System.out.println("Enter Maximum number:");
+					//capture the input in an integer
+					int max=scan1.nextInt();
+RandomA1 =new Random();
+A1.name = "Random no is";
+system.out.println (A1.name + A1.Rand);
+}
+}
+Public class Random  {
+string name;
+public int Rand(int min, int max) { 
+int randomNum = rand.nextInt((max - min) + 1) + min; 
+return randomNum;
+}
+}
